@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Overpass:wght@300&family=Signika&display=swap');
+
+* {
+	font-family: 'Overpass';
+}
+
+body{
+	background-color: #0492c2;
+}
+
+section{
+	background-color: white;
+	width: 30%;
+	margin: auto;
+	margin-bottom: 5%;
+	border-radius: 5%;
+	text-align: center;
+}
+
+section p{
+	color: crimson;
+	font-style: italic;
+	padding: 2%;
+}
+
+section h3{
+	margin-top: 2%;
+	margin-left: 3%;
+}
+
+#usr {
+	text-align: center;
+	margin-left: 3%;
+	margin-bottom: 3%;
+}
+
+#usr:focus {
+	background-color: cornflowerblue;
+}
+
+#psd{
+	text-align: center;
+	margin-left: 3%;
+	margin-bottom: 3%;
+}
+
+#psd:focus{
+	background-color: cornflowerblue;
+}
+
+button {
+	color: antiquewhite;
+	background-color: rgb(32, 206, 250);
+	border-color: rgb(32, 206, 250);
+	padding: 3%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	width: 30%;
+	text-align: center;
+}
+
+.card-header {
+	background-color: rgb(9, 128, 128);
+	color: ghostwhite;
+    text-align: center;
+    font-weight: 900;
+	padding: 25px;
+}
+
+a{
+	text-decoration: none;
+	color: blue;
+}
+
+a:active{
+	color: darkblue;
+}
+
+/*header code*/
+header {
+	background-color: #056DB6;
+	font-family: 'Archivo Black';
+	font-size: 100px;
+	padding-top: 1em;
+	padding-left: 0.5em;
+	padding-bottom: 0.8em;
+}
+
+header img {
+	margin-right: 100px;
+	margin-left: 50px;
+	float: right;
+}
+
+#ig {
+	display: inline-block;
+}
+article {
+	color: whitesmoke;
+	text-align: center;
+    padding: 5%;
+}
+
+article h1{
+    font-family: 'Archivo Black';
+    font-weight: lighter;
+}
+
+/* footer code */
+footer {
+	background-color: #08385C;
+	padding: 15px;
+	border-top-left-radius: 45px;
+	border-top-right-radius: 45px;
+}
+
+footer ul {
+	list-style-type: none;
+	display: inline-block;
+}
+
+#ig {
+	display: inline-block;
+}
+
+footer #ig a {
+	background: url('socmed.png') -141px 0;
+    height: 8.75em;
+    width: 8.75em;
+	display: block;
+	height: 8.75em;
+}
+
+footer #ig a:hover {
+	background: url('socmedhover.png') -141px 0;
+    height: 8.75em;
+    width: 8.75em;
+	display: block;
+	height: 8.75em;
+}
+
+#fb {
+	display: inline-block;
+}
+
+
+footer #fb a {
+	background: url('socmed.png') 0 0;
+    height: 8.75em;
+    width: 8.75em;
+	display: block;
+	height: 8.75em;
+}
+
+
+footer #fb a:hover {
+	background: url('socmedhover.png') 0 0;
+    height: 8.75em;
+    width: 8.75em;
+	display: inline-block;
+	height: 8.75em;
+}
+
+
+#twt {
+	display: inline-block;
+}
+
+
+footer #twt a {
+	background: url('socmed.png') -282px 0;
+    height: 8.75em;
+    width: 8.75em;
+	display: inline-block;
+	height: 8.75em;
+}
+
+
+footer #twt a:hover {
+	background: url('socmedhover.png') -282px 0;
+    height: 8.75em;
+    width: 8.75em;
+	display: inline-block;
+	height: 8.75em;
+} 
+
+footer p {
+	background-color: #08385C;
+	color: white;
+	font-size: 15px;
+	font-weight: bolder;
+	display: inline-block;
+	padding-left: 2em;
+}
